@@ -26,3 +26,8 @@ deploy/nginx/certs/*.key
 # OS
 .DS_Store
 Thumbs.db
+
+# Docker (no se versiona)
+Dockerfile
+docker-compose*.yml
+deploy/
