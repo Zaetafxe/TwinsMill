@@ -159,6 +159,7 @@ const moduleAreaMap: Record<ModuleKey, OpsArea[] | null> = {
   twinmill: null,
   granos: null,
   catalogos: null,
+  disenador: null,
   produccion: [
     {
       key: "lote-turno-produccion",

@@ -38,6 +38,7 @@ const moduleWeights: Record<ModuleKey, { profit: number; risk: number; quality: 
   ventas: { profit: 1.3, risk: 1.2, quality: 0.85, service: 1.15 },
   catalogos: { profit: 1, risk: 1, quality: 1, service: 1 },
   rentabilidad: { profit: 1.45, risk: 1.1, quality: 0.9, service: 0.95 },
+  disenador: { profit: 1, risk: 1, quality: 1, service: 1 },
 };
 
 function clamp(value: number, min: number, max: number) {
